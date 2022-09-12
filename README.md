@@ -9,4 +9,4 @@ This component is to code the R statistic functionalities in C++.
 
 [Here](Jonathan_Ho_stat_functs.cpp) is the C++ code for the statistical functions.
 
-[Here](Jonathan_Ho_Component_1_Write-Up) is the short write up after coding the said functions.
+[Here](Jonathan_Ho_Component_1_Write-Up.pdf) is the short write up after coding the said functions.
