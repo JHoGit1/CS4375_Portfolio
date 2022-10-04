@@ -25,4 +25,4 @@ This assignment is coding Logistical Regression and Naive Bayes using C++. An ov
 
 [Here](Jonathan_Ho_NaiveBayes.cpp) is the Naive Bayes code in C++.
 
-[Here](Jonathan_Ho_Overview_Component 4.pdf) is the overview document with the outputs and discussions of reproducable ML reserch.
+[Here](Jonathan_Ho_Overview_Component_4.pdf) is the overview document with the outputs and discussions of reproducable ML reserch.
