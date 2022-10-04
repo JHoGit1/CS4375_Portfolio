@@ -10,3 +10,10 @@ This component is to code the R statistic functionalities in C++.
 [Here](Jonathan_Ho_stat_functs.cpp) is the C++ code for the statistical functions.
 
 [Here](Jonathan_Ho_Component_1_Report.pdf) is the short write up after coding the said functions.
+
+## Component 2
+This component is using the statistical functions built into R to carry out Linear and Logistical Regression
+
+[Here](Regression.pdf) is the linear regression on a dataset.
+
+[Here](Classification.pdf) is the logistical regression on a dataset.
