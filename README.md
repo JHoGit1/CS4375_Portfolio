@@ -38,4 +38,4 @@ This assigment explores similarity models, clustering, and dimensionality reduct
 
 [Here](C5_Dimensionality_Reduction.pdf) is the notebook for dimensionality reduction.
 
-[Here](C5_Narratie.pdf) is the discussion on the differen algorithms and techniques.
+[Here](C5_Narrative.pdf) is the discussion on the differen algorithms and techniques.

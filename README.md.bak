@@ -26,3 +26,16 @@ This assignment is coding Logistical Regression and Naive Bayes using C++. An ov
 [Here](Jonathan_Ho_NaiveBayes.cpp) is the Naive Bayes code in C++.
 
 [Here](Jonathan_Ho_Overview_Component_4.pdf) is the overview document with the outputs and discussions of reproducable ML reserch.
+
+## Assignment 5
+This assigment explores similarity models, clustering, and dimensionality reduction techniques. Discussion of the algorithms and techniques are also explored. The assignment was done in a group with Khang Thai, David Park, and David Favela.
+
+[Here](C5_Linear_Regression.pdf) is the notebook for linear regression.
+
+[Here](C5_Logistic_Regression.pdf) is the notebook for logistic regression.
+
+[Here](C5_Clustering.pdf) is the notebook for clustering.
+
+[Here](C5_Dimensionality_Reduction.pdf) is the notebook for dimensionality reduction.
+
+[Here](C5_Narratie.pdf) is the discussion on the differen algorithms and techniques.
