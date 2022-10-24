@@ -43,7 +43,7 @@ This assigment explores similarity models, clustering, and dimensionality reduct
 ## Assignment 6
 This assignment explored the different Kernel and Ensemble methods. Discussion of SVM and Ensemble methods were done as well.
 
-[Here](Regression_SVM.Rmd) is the R notebook for Regression SVM
+[Here](https://github.com/JHoGit1/F22_CS4375_Portfolio/blob/main/Regression_SVM.Rmd) is the R notebook for Regression SVM
 
 [Here](C6_Classification_SVM.pdf) is the R notebook for Classification SVM.
 
