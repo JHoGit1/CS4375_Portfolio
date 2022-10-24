@@ -39,3 +39,14 @@ This assigment explores similarity models, clustering, and dimensionality reduct
 [Here](C5_Dimensionality_Reduction.pdf) is the notebook for dimensionality reduction.
 
 [Here](C5_Narrative.pdf) is the discussion on the differen algorithms and techniques.
+
+## Assignment 6
+This assignment explored the different Kernel and Ensemble methods. Discussion of SVM and Ensemble methods were done as well.
+
+[Here](Regression_SVM.pdf) is the R notebook for Regression SVM
+
+[Here](C6_Classification_SVM.pdf) is the R notebook for Classification SVM.
+
+[Here](C6_Ensemble.pdf) is the R notebook for Ensemble methods on the Classification SVM data.
+
+[Here](C6_Jonathan_Ho_SVM_ES.pdf) is the narrative and discussions exploring SVM and Ensemble methods.

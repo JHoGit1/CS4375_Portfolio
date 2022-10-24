@@ -1,0 +1,162 @@
+---
+title: "Regression SVM"
+author: "Jonathan Ho"
+date: "October 20, 2022"
+output:
+  html_document:
+    df_print: paged
+---
+
+# Load packages and data
+
+```{r}
+library(e1071)
+library(MASS)
+df <- read.csv("weatherHistory.csv", header=TRUE)
+```
+
+# Divide into train, test, and validate
+
+Load in only 10,000 randoms rows of data due to long loading times of SVM kernels.
+
+```{r}
+set.seed(420)
+spec <- c(train = 0.6, test = 0.2, validate = 0.2)
+i <- sample(cut(1:nrow(df), nrow(df)*cumsum(c(0,spec)), labels=names(spec)))
+train <- df[i=="train",]
+test <- df[i=="test",]
+vali <- df[i=="validate",]
+```
+
+### Data exploration
+
+View all columns within the dataset.
+
+```{r}
+str(train)
+```
+
+Check for NAs.
+
+```{r}
+sapply(df, function(y) sum(is.na(y)))
+```
+
+Display the number of rows and columns in the dataset.
+
+```{r}
+dim(df)
+```
+
+Summary of each column.
+
+```{r}
+summary(df)
+```
+
+
+### Data visualization
+
+Bar plot of the type of precipitation.
+
+```{r}
+counts <- table(df$Precip.Type)
+barplot(counts, xlab="Type of precipitation", ylab="", col="dodgerblue4", las=2) # las=2 displays all the Platforms
+```
+
+Scatter plot of Humidity versus Temperature.
+
+```{r}
+plot(df$Humidity, df$Temperature..C., pch=1, col="red", cex=0.5,
+     main="Humidity versus Temperature", xlab="Humidity", ylab="Temperature")
+```
+
+### Linear regression
+
+```{r}
+lm1 <- lm(Temperature..C.~Humidity, data=train)
+summary(lm1)
+par(mfrow=c(2,2))
+plot(lm1)
+```
+
+### Making prediction (summary at end)
+
+```{r}
+pred <- predict(lm1, newdata=test)
+cor_lm1 <- cor(pred, test$Temperature..C.)
+mse_lm1 <- mean((pred-test$Temperature..C.)^2)
+```
+
+### Linear Kernel
+
+Binary classification of Temperature and Humidity. Tuning is done to try and get the best cost. Gamma is not done since it is for non-linear kernels. A prediction is also done on the best linear svm.
+
+```{r}
+tune_lsvm <- tune(svm, Temperature..C.~Humidity, data=vali, kernel="linear", range=list(cost=c(0.001, 0.01, 0.1, 1, 5, 10, 100)))
+summary(tune_lsvm)
+
+pred <- predict(tune_lsvm$best.model, newdata=test)
+cor_lm2 <- cor(pred, test$Temperature..C.)
+mse_lm2 <- mean((pred - test$Temperature..C.)^2)
+```
+
+### Polynomial Kernel
+
+Using a Polynomial Kernel and making a prediction.
+
+```{r}
+svm2 <- svm(Temperature..C.~Humidity, data=train, kernel="polynomial", cost=1, scale=TRUE)
+summary(svm2)
+
+pred <- predict(svm2, newdata=test)
+cor_lm3 <- cor(pred, test$Temperature..C.)
+mse_lm3 <- mean((pred - test$Temperature..C.)^2)
+```
+
+### Radial Kernel
+
+Tuning hyperparameters with different costs and gamma to find the best cost and gamma.
+
+```{r}
+set.seed(420)
+tune.out <- tune(svm, Temperature..C.~Humidity, data=vali, kernel="radial",
+                 ranges=list(cost=c(0.1,1,10,100,1000),
+                             gamma=c(0.5,1,2,3,4)))
+summary(tune.out)
+```
+
+Using best cost and gamma to do a prediction.
+
+```{r}
+svm4 <- svm(Temperature..C.~Humidity, data=train, kernel="radial", cost=0.1, gamma=0.5, scale=TRUE)
+summary(svm4)
+
+pred <- predict(svm4, newdata=test)
+cor_lm4 <- cor(pred, test$Temperature..C.)
+mse_lm4 <- mean((pred - test$Temperature..C.)^2)
+```
+
+### Summary of Results
+
+```{r}
+cat("Linear Regression:\n")
+print(paste('cor: ', cor_lm1))
+print(paste('mse: ', mse_lm1))
+
+cat("\nLinear Kernel:\n")
+print(paste('cor: ', cor_lm2))
+print(paste('mse: ', mse_lm2))
+
+cat("\nPolynomial Kernel:\n")
+print(paste('cor: ', cor_lm3))
+print(paste('mse: ', mse_lm3))
+
+cat("\nRadial Kernel:\n")
+print(paste('cor: ', cor_lm4))
+print(paste('mse: ', mse_lm4))
+```
+
+### Results Discussion
+
+  With the given metrics, it is seen that Radial Kernal gives the highest correlation. However, the lowest mse would be from Linear Regression. Unsurprisingly correlation for Linear Regression and Kernel are the same, most likely cause the data fits pretty linearly. Mse might be slightly higher on a Linear Kernel because it may have assumed a few data points were SVMs that it should not have. As for why Radial Kernal had technically the highest correlation, there were probably a few outliers that Linear Regression and Kernel took into account that Radial left out. Polynomial Kernal had the lowest correlation and mse most likely since it tried to fit a polynomial function to something inheritantly linear.
