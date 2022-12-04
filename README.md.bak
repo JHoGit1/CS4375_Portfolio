@@ -50,3 +50,8 @@ This assignment explored the different Kernel and Ensemble methods. Discussion o
 [Here](C6_Ensemble.pdf) is the R notebook for Ensemble methods on the Classification SVM data.
 
 [Here](C6_Jonathan_Ho_SVM_ES.pdf) is the narrative and discussions exploring SVM and Ensemble methods.
+
+# Assignment 7
+This assignment explored using Python and sklearn within a JupyterLab environment. Logistic regression, decision trees, and neural networks were explored using a car dataset.
+
+[Here](C7_ML_with_sklearn.pdf) is the Jupyter notebook for carrying out different statistical analysis with sklearn.

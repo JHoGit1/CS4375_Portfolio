@@ -55,3 +55,8 @@ This assignment explored the different Kernel and Ensemble methods. Discussion o
 This assignment explored using Python and sklearn within a JupyterLab environment. Logistic regression, decision trees, and neural networks were explored using a car dataset.
 
 [Here](C7_ML_with_sklearn.pdf) is the Jupyter notebook for carrying out different statistical analysis with sklearn.
+
+# Assignment 8
+This assignment utilized Python and Keras to carry out image classification. A couple of different models were utilized to train the model and test it against a test dataset. The model was trained to recognize all the playing cards that were of the suit spades, and to attempt predicting the playing card.
+
+[Here](C8_Keras_Image_Classification.pdf) is the Jupyter notebook that contains the few models used to try and conduct image classification.
