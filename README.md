@@ -2,7 +2,7 @@
 A portfolio for the CS4375 ML class. This will be updated for the class.
 
 ## Assignment 1
-Click [here](Jonathan_Ho_Overview_of_ML.pdf) to view the pdf document related to this assignment.
+Click [here](https://github.com/JHoGit1/F22_CS4375_Portfolio/blob/main/Component%201/Jonathan_Ho_Overview_of_ML.pdf) to view the pdf document related to this assignment.
 
 ## Assignment 2
 This assignment is to code the R statistic functionalities in C++.
