@@ -1,5 +1,5 @@
 # F22_CS4375_Portfolio
-A portfolio for the CS4375 ML class. This will be updated for the class.
+A portfolio for the CS4375 ML class.
 
 ## Component 1
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4375_Portfolio/Component%201/C1_Jonathan_Ho_Overview_of_ML.pdf) to view the pdf document related to this assignment.
