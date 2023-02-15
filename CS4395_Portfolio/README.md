@@ -13,3 +13,7 @@ Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfo
 
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%201/C1_Jonathan_Ho_Python_Overview.pdf) for a small overview about the script.
 
+## Component 2
+For this assignment, a Python script was created to be able to preprocess and tokenize a text file, find the 50 most common used nouns, and pick one word from the common nouns to use for a guessing game.
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%202/jqh200000_A2.py) to see the python script for the guessing game
