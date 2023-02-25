@@ -17,3 +17,8 @@ Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfo
 For this assignment, a Python script was created to be able to preprocess and tokenize a text file, find the 50 most common used nouns, and pick one word from the common nouns to use for a guessing game.
 
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%202/jqh200000_A2.py) to see the python script for the guessing game.
+
+## Component 3
+For this assignment, the WordNet package from NLTK is explored using Google Colab. 
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%203/C3_Jonathan_Ho_WordNet.pdf) to see the notebook using WordNet.
