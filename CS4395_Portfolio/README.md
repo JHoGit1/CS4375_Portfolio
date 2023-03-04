@@ -22,3 +22,12 @@ Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfo
 For this assignment, the WordNet package from NLTK is explored using Google Colab. 
 
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%203/C3_Jonathan_Ho_WordNet.pdf) to see the notebook using WordNet.
+
+## Component 4
+Exploration of Ngrams were conducted by utilizing Python code. The code is split into two programs. The first program took in texts to create unigram and bigram dictionaries and pickled them. Then, the second program would unpickle the dictionaries to interpret a test file with lines of languages varying between English, French, and Italian. The language model would determine the probabilities of each language for each line and output to a text file what language it thinks that test line is. An overview narrative was then written.
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%204/jqh200000_A4_P1.py) for the code of the first program.
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%204/jqh200000_A4_P2.py) for the code of the second program.
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%204/jqh200000_A4_Narrative.pdf) for the narrative on ngrams.
