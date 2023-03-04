@@ -31,3 +31,8 @@ Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfo
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%204/jqh200000_A4_P2.py) for the code of the second program.
 
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%204/jqh200000_A4_Narrative.pdf) for the narrative on ngrams.
+
+## Component 5
+Different sentence parsing techniques were viewed in this assignment. Through AllenNLP, PSG, dependancy, and SRL parsing were carried out on a complex sentence.
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%205/jqh200000_A5_Writeup.pdf) to view the write up on the different parsers.
