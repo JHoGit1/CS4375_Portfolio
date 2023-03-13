@@ -42,4 +42,4 @@ A web crawler was created to look for links with a term, find the text within th
 
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%206/jqh200000_A6.py) to view the code for the web crawler.
 
-Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%206/jqh200000_A6_Knowledge_Base_Writeup.docx) to view the short write up of the knowledge base.
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%206/jqh200000_A6_Knowledge_Base_Writeup.pdf) to view the short write up of the knowledge base.
