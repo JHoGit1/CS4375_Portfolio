@@ -48,3 +48,8 @@ Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfo
 Naive Bayes, Logistic Regression, and Neural Networks were used to create models to predict text classification. 
 
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%207/jqh200000_A7.pdf) to view the notebok for the text classification.
+
+## Component 8
+An peer-reviewed paper was chosen from the ACL Anthology website to read and summarize. The link for the specific paper that was read is [here](https://aclanthology.org/2022.acl-long.27/). 
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%208/jqh200000_A8.pdf) to see the summary of the ACL paper chosen.
