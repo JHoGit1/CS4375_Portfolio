@@ -53,3 +53,8 @@ Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfo
 An peer-reviewed paper was chosen from the ACL Anthology website to read and summarize. The link for the specific paper that was read is [here](https://aclanthology.org/2022.acl-long.27/). 
 
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%208/jqh200000_A8.pdf) to see the summary of the ACL paper chosen.
+
+## Component 10
+Different deep learning models were created to try and predict whether or not text was spam. This includes a sequential model, RNN, CNN, LSTM, and GRU as well as a GloVe embedding.
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%2010/jqh200000_A10.pdf) to see the overview.
