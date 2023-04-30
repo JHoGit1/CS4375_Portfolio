@@ -54,6 +54,14 @@ An peer-reviewed paper was chosen from the ACL Anthology website to read and sum
 
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%208/jqh200000_A8.pdf) to see the summary of the ACL paper chosen.
 
+## Component 9
+
+A Simple Recipe Chatbot was created using Google's DialogFlow ES. The project was done in collaboration with David Park.
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/tree/main/CS4395_Portfolio/Component%209) to view the source code and static knowledge base of the chatbot.
+
+Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfolio/Component%209/Chatbot_Report.pdf) to view the writeup of the chatbot.
+
 ## Component 10
 Different deep learning models were created to try and predict whether or not text was spam. This includes a sequential model, RNN, CNN, LSTM, and GRU as well as a GloVe embedding.
 
