@@ -59,4 +59,4 @@ This assignment explored using Python and sklearn within a JupyterLab environmen
 ## Component 8
 This assignment utilized Python and Keras to carry out image classification. A couple of different models were utilized to train the model and test it against a test dataset. The model was trained to recognize all the playing cards that were of the suit spades, and to attempt predicting the playing card.
 
-[Here](https://github.com/JHoGit1/CS4375_Portfolio/tree/main/Component%208) is the Jupyter notebook that contains the few models used to try and conduct image classification.
+[Here](https://github.com/JHoGit1/CS4375_Portfolio/blob/main/Component%208/C8_Keras_Image_Classification.pdf) is the Jupyter notebook that contains the few models used to try and conduct image classification.
