@@ -56,7 +56,7 @@ Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/blob/main/CS4395_Portfo
 
 ## Component 9
 
-A Simple Recipe Chatbot was created using Google's DialogFlow ES. The project was done in collaboration with David Park.
+A simple Recipe Chatbot was created using Google's DialogFlow ES. The project was done in collaboration with David Park.
 
 Click [here](https://github.com/JHoGit1/UTD_CS_Portfolio/tree/main/CS4395_Portfolio/Component%209) to view the source code and static knowledge base of the chatbot.
 
