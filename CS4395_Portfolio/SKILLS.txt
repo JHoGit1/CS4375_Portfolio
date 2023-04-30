@@ -1,1 +1,13 @@
-Test
+Technical Skills:
+- Familiarity of Dialogflow ES
+- Can utilize machine learning techniques like CNN, RNN, and LSTM to train models
+- Familiarity of preprocessing and tokenizing text using NLTK
+
+Soft skills:
+- Positivity
+- Curiosity
+- Communication
+- Critical Thinking
+- Teamwork
+- Dedication
+
