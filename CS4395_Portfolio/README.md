@@ -1,5 +1,9 @@
 # S23_CS4395_Portfolio
-A portfolio for the CS4395 HLT (NLP) class. 
+This is a portfolio for the CS4395 Human Language Technologies (Natural Language Processing) class to showcase the different algorithms and techniques that are utilized to perform analysis on text. After taking this course I have gained valuble insight into the topic of NLP. Before taking this course, I did not realize how much NLP was utilized to run various applications and programs on our computers and even in our daily lives. From chatbots to word autocorrectors and live caption translation, NLP is a growing field that will only expand as our technology grows. It'll be astonishing to compare NLP progress years from now versus what we have established currently. We may believe that what we knew before was so primitive!
+
+Of all the components here, if there is one I'd potentially would like to continue one day, it would be the recipe chatbot. Dialogflow is such a complex system that we barely scratched the surface of it when making our recipe chatbot. I hope with more time after graduation, we'd be able to pursue working on it more as a personal project. 
+
+I think the one thing that not only I would see, but the whole world would see grow is ChatGPT. Its exponential growth since the beginning of the semester has been astonishing, and has brought up new discussions about AI in our society. I believe we'll be hearing about ChatGPT for a very long time.
 
 ## Component 0
 This is an introduction to what NLP is and my personal short view NLP.
